@@ -1,0 +1,96 @@
+.aboutme-wraper{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 8em 1em 1em 1em;
+}
+
+.aboutme-wraper p {
+    font-size: 0.9em;
+}
+
+.aboutme-wraper h5 {
+    font-size: 1.2em;
+}
+.banner-img img{
+    width: 96%;
+    margin-bottom: -20%;
+}
+
+.project-banner-img img{
+    width: 96%;
+}
+
+.opener{
+    margin-top: 2%;
+    padding-bottom: 5em;
+    width: 38em;
+}
+
+.topic-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3em;
+}
+
+.final-product{
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.detail-container{
+    padding-bottom: 2%;
+}
+
+.compet{
+    width: 50%;
+}
+
+.persona{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    row-gap: 1em;
+    margin-top: 1em;
+}
+.persona img{
+    width: 100%;
+}
+
+.sol{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 0em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+.sol img{
+    width: 100%;
+}
+
+.wf{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.reference-container{
+    margin-top: 5em;
+    line-height: 0.5em;
+}
+.reference-container p {
+    font-size: 0.7em;
+    line-height: 130%;
+}
+
+////////////IAP
+
+.portfolio1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+.portfolio1 img{
+    width: 97.5%;
+}
