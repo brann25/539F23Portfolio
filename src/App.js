@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div className="App">
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route exact path = "/" element = {<Homepage/>}></Route>
         <Route exact path = "/uxKitchr" element = {<UxKitchr/>}></Route>
         <Route exact path = "/aboutme" element = {<Aboutme/>}></Route>
