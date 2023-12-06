@@ -11,7 +11,7 @@ function App() {
     <>
     <div className="App">
       <Routes>
-        <Route exact path = "/" component = {<Homepage/>}></Route>
+        <Route exact path = "/" component = {Homepage}></Route>
         <Route  path = "/#/uxkitchr" component = {<UxKitchr/>}></Route>
         <Route  path = "/#/aboutme" component = {Aboutme}></Route>
       </Routes>
