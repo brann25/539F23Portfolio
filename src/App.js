@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route exact path = "/" element = {<Homepage/>}></Route>
         <Route exact path = "/uxKitchr" element = {<UxKitchr/>}></Route>
-        <Route exact path = "/portfoliobk/aboutme" element = {<Aboutme/>}></Route>
+        <Route exact path = "{process.env.PUBLIC_URL}/aboutme" element = {<Aboutme/>}></Route>
       </Routes>
     </div>
     </>
