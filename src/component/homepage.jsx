@@ -32,7 +32,7 @@ function Homepage() {
           <div className="home-content">   
             <p className='project-title'>Kitchr</p>           
             <p className='project-sub-title'>app design for finding ingredients around home</p> 
-            <a href="/uxKitchr">details...</a>
+            <a href="/portfoliobk/uxKitchr">details...</a>
           </div>
           <div className="home-content">   
             <p className='project-title'>Banking App</p>           
