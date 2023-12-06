@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(225, 223, 208);
+}
 header, main {
     font-family: 'Prompt', sans-serif;
     position: relative;
@@ -6,6 +9,7 @@ footer {
     width: 100%;
     background-color: #3c352e;
     color: white;
+    margin-top: -80%;
 }
 /* navbar */
 .nav-containter{
@@ -92,15 +96,15 @@ footer {
 }
 
 @keyframes title {
-    0% {color: #f7e73b}
-    12.5% {color: #f4d824}
-    25% {color: #f4bd24}
-    37.5% {color: #f4a124}
+    0% {color: #c2b526}
+    12.5% {color: #b39f1b}
+    25% {color: #d77e1e}
+    37.5% {color: #b6631e}
     50% {color: #f48c24}
-    65% {color: #f4a124}
-    75% {color: #f4bd24}
-    88% {color: #f4d824}
-    100% {color: #f7e73b}
+    65% {color: #b6631e}
+    75% {color: #d77e1e}
+    88% {color: #b39f1b}
+    100% {color: #c2b526}
 }
 
 .home-content:nth-child(1) h4{
