@@ -10,7 +10,7 @@ function Navbar() {
     <div className="nav-containter" onScroll={moveTop}>
         <a href="/portfoliobk">home</a>
         <a href="">projects</a>
-        <a href="/portfoliobk/aboutme">about me</a>
+        <a href="/#/aboutme">about me</a>
     </div>
   )
 }
