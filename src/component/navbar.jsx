@@ -8,7 +8,7 @@ function Navbar() {
     }
   return (
     <div className="nav-containter" onScroll={moveTop}>
-        <a href="/portfoliobk">home</a>
+        <a href="/">home</a>
         <a href="#/portfoliobk">projects</a>
         <a href="#/aboutme">about me</a>
     </div>
