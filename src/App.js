@@ -11,7 +11,7 @@ function App() {
     <>
     <div className="App">
       <Routes>
-        <Route exact path = "/" element = {<Homepage/>}></Route>
+        <Route exact path = "/portfoliobk" element = {<Homepage/>}></Route>
         <Route  path = "/#/uxkitchr" element = {<UxKitchr/>}></Route>
         <Route  path = "/#/aboutme" element = {<Aboutme/>}></Route>
       </Routes>
