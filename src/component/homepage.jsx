@@ -2,7 +2,7 @@ import React from 'react'
 import { useRef, useState } from 'react';
 import "./css/main.css"
 import Navbar from './navbar'
-
+import {Link} from 'react-router-dom';
 import img1 from './image/me.png'
 import Footer from './footer';
 
@@ -33,7 +33,7 @@ function Homepage() {
           <div className="home-content" id="main">   
             <p className='project-title'>Kitchr</p>           
             <p className='project-sub-title'>app design for finding ingredients around home</p> 
-            <a href="/portfoliobk">details...</a>
+            <a href="/portfoliobk"><Link to="/kitchr">Go!</Link></a>
           </div>
           <div className="home-content">   
             <p className='project-title'>Banking App</p>           

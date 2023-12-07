@@ -9,7 +9,7 @@ footer {
     width: 100%;
     background-color: #3c352e;
     color: white;
-    margin-top: 120%;
+    margin-top: 280%;
 }
 /* navbar */
 .skiptomain{
@@ -108,15 +108,15 @@ footer {
 }
 
 @keyframes title {
-    0% {color: #c2b526}
-    12.5% {color: #b39f1b}
-    25% {color: #d77e1e}
-    37.5% {color: #b6631e}
-    50% {color: #f48c24}
-    65% {color: #b6631e}
-    75% {color: #d77e1e}
-    88% {color: #b39f1b}
-    100% {color: #c2b526}
+    0% {color: #847b15}
+    12.5% {color: #a37b15}
+    25% {color: #c77114}
+    37.5% {color: #c05b18}
+    50% {color: #e06404}
+    65% {color: #c05b18}
+    75% {color: #c77114}
+    88% {color: #a37b15}
+    100% {color: #847b15}
 }
 
 .home-content:nth-child(1) h4{
@@ -231,7 +231,7 @@ footer {
         font-size: 15px;
     }
     footer {
-        margin-bottom: -80%;
+        margin-top: 120%;
     }
 }
 @media screen and (prefers-reduced-motion: reduce) {

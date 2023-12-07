@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Page_Component.scss'
 import P1Header from './gif/P1_Storyboard.gif'
+import "./css/main.css"
 ///competitor
 
 import sb1 from './project-img/P1_Sketching Alternatives_Page_1.jpg'
@@ -28,6 +29,7 @@ export default function Page_Project1() {
   return (
     <div className="aboutme-wraper">
       <Navbar/>
+      <h2 style={{color:"red"}}>THIS PAGE IS NOT INSIDE SI539 FINAL PROJECT SCOPE EXPECT NAVBAR</h2>
       <div className="project-banner-container">
           <div className="project-banner-img">
               <img src={P1Header} alt="" className="intro" />

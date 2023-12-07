@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path = "/" element = {<Homepage />}></Route>
-        <Route  path = "/portfoliobk" element = {<UxKitchr />}></Route>
+        <Route  path = "/kitchr" element = {<UxKitchr />}></Route>
         <Route  path = "/aboutme" element = {<Aboutme />}></Route>
       </Routes>
     </div>

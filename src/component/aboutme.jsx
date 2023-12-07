@@ -20,25 +20,31 @@ const Aboutme = () => {
             <img src={pic1} alt="" />
         </div>
         <div className="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>This is Brann's portfolio, this portfolio </p>
+            <p>Hi, my name is Brann! And this is a portfolio website I built with React.js framework!</p>
+            <p>Hope everyone enjoy and have a great up coming happy new year!</p>
         </div>
         <div className="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+            <p>I am currently studying Information Science at the School of Information, The University of Michigan, Ann Arbor, Michigan</p>
+            <p>In this program, I have learned many useful classes and have made a good friendship all along which I belive to be a good experience</p>
+            <p>One of the most important aspect I learned from the classes are human and design relationship where we should study and deliver the best options</p>
+            <p>so that our users can use good design to enhance their life!</p>
         </div>  
         <div className="about">
             <img src={pic2} alt="" />
         </div>
         <div className="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>I came from Interior Design background and have been working to design retail spaces for years.</p>
+            <p>One thing that I have notice is the growing demand on digital design and online activities for shoppers!</p>
+            <p>By learning how could we integrate design principle and digital activites, I could create online space to be a better place for everyone!</p>
         </div>  
         <div className="about">
             <img src={pic3} alt="" />
         </div>
     </div>
-    <Footer/>
+        <div className="about">
+            <a href="#top">Back to top</a>
+        </div>
     </>
   )
 }
