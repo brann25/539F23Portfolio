@@ -9,6 +9,7 @@ import Footer from './footer';
 function Homepage() {
   return (
     <>
+    <div className="skiptomain"><a href="#main">skip to main</a></div>
     <Navbar/>
     <header>
         <div className="title">
@@ -29,10 +30,10 @@ function Homepage() {
               <img src={img1} alt="" />
             </div>
           </div>
-          <div className="home-content">   
+          <div className="home-content" id="main">   
             <p className='project-title'>Kitchr</p>           
             <p className='project-sub-title'>app design for finding ingredients around home</p> 
-            <a href="/#/uxkitchr">details...</a>
+            <a href="/portfoliobk">details...</a>
           </div>
           <div className="home-content">   
             <p className='project-title'>Banking App</p>           
@@ -64,7 +65,9 @@ function Homepage() {
           <div className="home-content"><h6>← DESIGN</h6></div>
         </div>
     </main>
-    <Footer></Footer>
+    <footer>
+    <Footer />
+    </footer>
     </>
   )
 }

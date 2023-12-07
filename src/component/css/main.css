@@ -9,9 +9,21 @@ footer {
     width: 100%;
     background-color: #3c352e;
     color: white;
-    margin-top: -80%;
+    margin-top: 120%;
 }
 /* navbar */
+.skiptomain{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.skiptomain a:focus{
+    position: absolute;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #ede85d;
+}
+
 .nav-containter{
     position: fixed;
     display: grid;

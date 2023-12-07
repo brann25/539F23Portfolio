@@ -10,12 +10,13 @@ import pic3 from './image/pic3.png'
 const Aboutme = () => {
   return (
     <>
+    <div className="skiptomain"><a href="#main">skip to main</a></div>
     <Navbar/>
     <div className="container">
         <div className="about">
             <h1>about-me</h1>
         </div>
-        <div className="about">
+        <div className="about" id="main">
             <img src={pic1} alt="" />
         </div>
         <div className="about">

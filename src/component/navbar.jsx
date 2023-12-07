@@ -1,16 +1,13 @@
 import React from 'react'
 import "./css/main.css"
+import {Link} from 'react-router-dom';
 
 function Navbar() {
-    function moveTop() {
-        console.log(document.querySelectorAll(".nav-containter"));
-        document.querySelectorAll(".nav-containter").style.color = "white";
-    }
   return (
-    <div className="nav-containter" onScroll={moveTop}>
-        <a href="/">home</a>
-        <a href="/">projects</a>
-        <a href="#/aboutme">about me</a>
+    <div className="nav-containter">
+        <Link to= "/">home</Link>
+        <a href="https://www.linkedin.com/in/bannawit-brann-khattiyanont/" target="_blank" rel="noopener noreferrer">linkedIn</a>
+        <Link to= "/aboutme">about me</Link>
     </div>
   )
 }
